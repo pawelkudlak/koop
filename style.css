@@ -133,3 +133,29 @@ body {
     /* width: 400px; */
     width: 20%;
 }
+#top_10
+{
+    background-color: white;
+    padding-left: 240px;
+    padding-right: 240px;
+    display: grid;
+    grid-template-columns: repeat(2, 555px);
+    gap: 30px;          
+}
+.description
+{
+   display: flex;
+   flex-direction: column;  
+}
+.game
+{
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+@media screen and (max-width: 767px){
+    #top_10{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
