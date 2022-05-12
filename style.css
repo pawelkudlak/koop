@@ -113,3 +113,23 @@ body {
     padding-right: 15%;
 
 }
+
+#galeria {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+#gal_fot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: flex-start;
+    /* align-self: auto; */
+}
+
+.gal_fot {
+    /* width: 400px; */
+    width: 20%;
+}
