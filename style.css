@@ -1,6 +1,12 @@
 .navigation {
-    display: flex;
-    position: sticky;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index:99;
+    background-color: white;
 }
 
 .menulink:link,
@@ -23,7 +29,7 @@
 
 .bg-logo::before {
     position: absolute;
-    background-image: url("tlo.jpg");
+    background-image: url("tlo.png");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -47,7 +53,7 @@
 .tytul {
     text-align: center;
     display: block;
-    margin-top: 100px;
+    margin-top: 300px;
     opacity: 1;
     position: relative;
 }
@@ -92,4 +98,18 @@ body {
 
 .footerlink:hover {
     color: #0072ce;
+}
+
+@media screen and (max-width: 767px){
+    #info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+#o_konsoli {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+
 }
